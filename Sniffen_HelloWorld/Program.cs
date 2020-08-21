@@ -10,6 +10,7 @@ namespace Sniffen_HelloWorld
     {
         static void Main(string[] args)
         {
+            //Practice Exercise 1: Perfrom basic C# introduction code
             Console.WriteLine("Hello world!");
             Console.WriteLine("John Sniffen");
             int a = 5;
