@@ -1,0 +1,7 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Sniffen_HelloWorld\bin\Debug\Sniffen_HelloWorld.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Sniffen_HelloWorld\bin\Debug\Sniffen_HelloWorld.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Sniffen_HelloWorld\bin\Debug\Sniffen_HelloWorld.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Sniffen_HelloWorld\obj\Debug\Sniffen_HelloWorld.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Sniffen_HelloWorld\obj\Debug\Sniffen_HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Sniffen_HelloWorld\obj\Debug\Sniffen_HelloWorld.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Sniffen_HelloWorld\obj\Debug\Sniffen_HelloWorld.pdb
