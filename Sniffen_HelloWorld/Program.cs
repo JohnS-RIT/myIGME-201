@@ -6,17 +6,23 @@ using System.Threading.Tasks;
 
 namespace Sniffen_HelloWorld
 {
-    // comment blocks are required for class definitions (class Program)f
-    // and method definitions (Main())
+    //class: Program
+    //Purpose: Run main code which holds method Main
+    //Restrictions: None
     class Program
     {
+        //method: Main
+        //Purpose: Write some lines of code to console as well as simple math function
+        //Restrictions: None
         static void Main(string[] args)
         {
+            //Declare and initialize variables for simple math function
+            int a = 5;
+            int b = 3;
+            
             //Practice Exercise 1: Perfrom basic C# introduction code
             Console.WriteLine("Hello world!");
             Console.WriteLine("John Sniffen");
-            int a = 5;
-            int b = 3;
             Console.WriteLine(a + b);
         }
     }
