@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Sniffen_HelloWorld
 {
+    // comment blocks are required for class definitions (class Program)f
+    // and method definitions (Main())
     class Program
     {
         static void Main(string[] args)
