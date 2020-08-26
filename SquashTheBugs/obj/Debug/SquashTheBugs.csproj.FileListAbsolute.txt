@@ -1,0 +1,7 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\SquashTheBugs\bin\Debug\SquashTheBugs.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\SquashTheBugs\bin\Debug\SquashTheBugs.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\SquashTheBugs\bin\Debug\SquashTheBugs.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\SquashTheBugs\obj\Debug\SquashTheBugs.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\SquashTheBugs\obj\Debug\SquashTheBugs.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\SquashTheBugs\obj\Debug\SquashTheBugs.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\SquashTheBugs\obj\Debug\SquashTheBugs.pdb

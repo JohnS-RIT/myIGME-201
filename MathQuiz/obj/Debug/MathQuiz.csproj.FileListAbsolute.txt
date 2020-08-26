@@ -1,0 +1,2 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MathQuiz\obj\Debug\MathQuiz.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MathQuiz\obj\Debug\MathQuiz.csproj.CoreCompileInputs.cache
