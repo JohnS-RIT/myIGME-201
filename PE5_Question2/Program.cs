@@ -22,9 +22,7 @@ namespace PE5_Question2
             int num1 = 0;
             int num2 = 0;
             bool valid = true;
-            
-
-            
+                       
             //While loop until only one number at most is > 10
             while(valid == true)
             {

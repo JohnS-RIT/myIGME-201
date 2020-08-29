@@ -1,0 +1,7 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE4-Mandelbrot\bin\Debug\PE4-Mandelbrot.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE4-Mandelbrot\bin\Debug\PE4-Mandelbrot.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE4-Mandelbrot\bin\Debug\PE4-Mandelbrot.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE4-Mandelbrot\obj\Debug\PE4-Mandelbrot.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE4-Mandelbrot\obj\Debug\PE4-Mandelbrot.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE4-Mandelbrot\obj\Debug\PE4-Mandelbrot.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE4-Mandelbrot\obj\Debug\PE4-Mandelbrot.pdb
