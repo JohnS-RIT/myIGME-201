@@ -16,6 +16,7 @@ namespace PE_3___Question_5
         //Restrictions: None
         static void Main(string[] args)
         {
+            Console.WriteLine((6 / 4.0 + 3.5) / 2);
             //Declare each string for number input and int variable to convert each to
             string sNum1;
             string sNum2;
