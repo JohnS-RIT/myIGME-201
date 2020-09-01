@@ -1,0 +1,7 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE6_Parsing_Formatting\bin\Debug\PE6_Parsing_Formatting.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE6_Parsing_Formatting\bin\Debug\PE6_Parsing_Formatting.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE6_Parsing_Formatting\bin\Debug\PE6_Parsing_Formatting.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE6_Parsing_Formatting\obj\Debug\PE6_Parsing_Formatting.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE6_Parsing_Formatting\obj\Debug\PE6_Parsing_Formatting.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE6_Parsing_Formatting\obj\Debug\PE6_Parsing_Formatting.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE6_Parsing_Formatting\obj\Debug\PE6_Parsing_Formatting.pdb
