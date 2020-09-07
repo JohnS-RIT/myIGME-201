@@ -1,0 +1,7 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE8\bin\Debug\PE8.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE8\bin\Debug\PE8.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE8\bin\Debug\PE8.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE8\obj\Debug\PE8.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE8\obj\Debug\PE8.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE8\obj\Debug\PE8.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE8\obj\Debug\PE8.pdb
