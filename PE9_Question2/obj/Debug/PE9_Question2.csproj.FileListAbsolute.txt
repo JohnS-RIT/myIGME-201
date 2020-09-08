@@ -1,0 +1,7 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE9_Question2\bin\Debug\PE9_Question2.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE9_Question2\bin\Debug\PE9_Question2.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE9_Question2\bin\Debug\PE9_Question2.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE9_Question2\obj\Debug\PE9_Question2.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE9_Question2\obj\Debug\PE9_Question2.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE9_Question2\obj\Debug\PE9_Question2.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PE9_Question2\obj\Debug\PE9_Question2.pdb
