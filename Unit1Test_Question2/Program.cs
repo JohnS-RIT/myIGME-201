@@ -140,7 +140,7 @@ namespace Unit1Test_Question2
             Console.WriteLine();
         }
 
-        // find the lowest value in the array of doubles
+        // find the lowest value in the array of strings
         static string FindLowestValue(string[] array)
         {
             // define return value
@@ -206,7 +206,7 @@ namespace Unit1Test_Question2
             // iterate through the source array
             foreach (string srcString in array)
             {
-                // if this is the number to be removed and we didn't remove it yet
+                // if this is the word to be removed and we didn't remove it yet
                 if (srcString == removeValue && !bAlreadyRemoved)
                 {
                     // set the flag that it was removed
@@ -216,14 +216,14 @@ namespace Unit1Test_Question2
                     continue;
                 }
 
-                // insert the source number into the new array
+                // insert the source word into the new array
                 newArray[dest] = srcString;
 
-                // increment the new array index to insert the next number
+                // increment the new array index to insert the next word
                 ++dest;
             }
 
-            // set the ref array equal to the new array, which has the target number removed
+            // set the ref array equal to the new array, which has the target word removed
             // this changes the variable in the calling function (aUnsorted in this case)
             array = newArray;
         }
