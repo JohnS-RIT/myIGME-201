@@ -56,25 +56,6 @@ namespace Unit1Test_Question2
 
                 nUnsortedLength = sWordArray.Length;
 
-                /* 
-                try
-                {
-                    // try to parse the current string into a double
-                    nThisNumber = double.Parse(sThisNumber);
-
-                    // if it's successful, increment the number of unsorted numbers
-                    ++nUnsortedLength;
-                }
-                catch
-                {
-                    // if an exception occurs
-                    // indicate which number is invalid
-                    Console.WriteLine($"Number #{nUnsortedLength + 1} is not a valid number.");
-
-                    // loop back to the start
-                    goto start;
-                }
-                */
             }
 
             // now we know how many unsorted words there are
