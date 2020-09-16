@@ -1,0 +1,7 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Unit1Test_Question4\bin\Debug\Unit1Test_Question4.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Unit1Test_Question4\bin\Debug\Unit1Test_Question4.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Unit1Test_Question4\bin\Debug\Unit1Test_Question4.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Unit1Test_Question4\obj\Debug\Unit1Test_Question4.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Unit1Test_Question4\obj\Debug\Unit1Test_Question4.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Unit1Test_Question4\obj\Debug\Unit1Test_Question4.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\Unit1Test_Question4\obj\Debug\Unit1Test_Question4.pdb
