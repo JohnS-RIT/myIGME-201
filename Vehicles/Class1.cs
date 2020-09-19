@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Vehicles
 {
-    class Class1
+    public class Class1
     {
         public abstract class Vehicle
         {
