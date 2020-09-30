@@ -199,7 +199,7 @@ namespace GameOfLife
             sInitialState[1] = "1";
             sInitialState[2] = "   1";
             sInitialState[3] = "  11";
-            nIniRows = 4;
+            nIniRows = 4; 
             
             /*
             //Glider
