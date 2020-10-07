@@ -40,7 +40,7 @@
             this.licLabel = new System.Windows.Forms.Label();
             this.licText = new System.Windows.Forms.TextBox();
             this.specialtyLabel = new System.Windows.Forms.Label();
-            this.spectext = new System.Windows.Forms.TextBox();
+            this.specText = new System.Windows.Forms.TextBox();
             this.gpaLabel = new System.Windows.Forms.Label();
             this.gpaText = new System.Windows.Forms.TextBox();
             this.okButton = new System.Windows.Forms.Button();
@@ -138,12 +138,12 @@
             this.specialtyLabel.TabIndex = 5;
             this.specialtyLabel.Text = "Specialty:";
             // 
-            // spectext
+            // specText
             // 
-            this.spectext.Location = new System.Drawing.Point(80, 207);
-            this.spectext.Name = "spectext";
-            this.spectext.Size = new System.Drawing.Size(353, 20);
-            this.spectext.TabIndex = 5;
+            this.specText.Location = new System.Drawing.Point(80, 207);
+            this.specText.Name = "specText";
+            this.specText.Size = new System.Drawing.Size(353, 20);
+            this.specText.TabIndex = 5;
             // 
             // gpaLabel
             // 
@@ -195,7 +195,7 @@
             this.Controls.Add(this.okButton);
             this.Controls.Add(this.gpaText);
             this.Controls.Add(this.gpaLabel);
-            this.Controls.Add(this.spectext);
+            this.Controls.Add(this.specText);
             this.Controls.Add(this.specialtyLabel);
             this.Controls.Add(this.licText);
             this.Controls.Add(this.licLabel);
@@ -208,7 +208,7 @@
             this.Controls.Add(this.typeComboBox);
             this.Controls.Add(this.typeLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(1);
+            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.MaximumSize = new System.Drawing.Size(462, 319);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(462, 319);
@@ -234,7 +234,7 @@
         private System.Windows.Forms.Label licLabel;
         private System.Windows.Forms.TextBox licText;
         private System.Windows.Forms.Label specialtyLabel;
-        private System.Windows.Forms.TextBox spectext;
+        private System.Windows.Forms.TextBox specText;
         private System.Windows.Forms.Label gpaLabel;
         private System.Windows.Forms.TextBox gpaText;
         private System.Windows.Forms.Button okButton;

@@ -1,0 +1,13 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\EditPerson.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\EditPerson.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\EditPerson.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\PeopleLib.dll
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\PeopleLib.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.EditPersonForm.resources
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.Properties.Resources.resources
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.csproj.GenerateResource.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.csproj.CopyComplete
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.pdb

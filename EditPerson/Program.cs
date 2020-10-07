@@ -17,7 +17,10 @@ namespace EditPerson
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EditPersonForm());
+
+            Person student = new Student();
+
+            Application.Run(new EditPersonForm(student, null));
         }
     }
 }
