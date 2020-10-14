@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5897B36B-0B46-4643-80D8-B121F82834A2}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>EditPerson</RootNamespace>
-    <AssemblyName>EditPerson</AssemblyName>
+    <ProjectGuid>{6728CC53-098B-4FE2-965B-7B100F0FF36C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsPeopleApp</RootNamespace>
+    <AssemblyName>WindowsPeopleApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,12 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PeopleAppGlobals">
-      <HintPath>..\PeopleAppGlobals\bin\Debug\PeopleAppGlobals.dll</HintPath>
+    <Reference Include="EditPerson">
+      <HintPath>..\EditPerson\bin\Debug\EditPerson.dll</HintPath>
     </Reference>
     <Reference Include="PeopleLib">
       <HintPath>..\PeopleLib\bin\Debug\PeopleLib.dll</HintPath>
@@ -63,9 +60,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
