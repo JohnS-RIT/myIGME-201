@@ -1,6 +1,6 @@
 ﻿namespace EditPerson
 {
-    partial class EditPersonForm
+    partial class PersonEditForm
     {
         /// <summary>
         /// Required designer variable.

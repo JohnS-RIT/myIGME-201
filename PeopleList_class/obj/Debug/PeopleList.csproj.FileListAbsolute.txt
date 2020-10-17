@@ -1,0 +1,33 @@
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\bin\Debug\PeopleList.exe
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\bin\Debug\PeopleList.pdb
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\bin\Debug\PeopleAppGlobals.dll
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\bin\Debug\PeopleLib.dll
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\bin\Debug\CourseLib.dll
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\bin\Debug\PeopleAppGlobals.pdb
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\bin\Debug\PeopleLib.pdb
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\bin\Debug\CourseLib.pdb
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\obj\Debug\PeopleList.csprojAssemblyReference.cache
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\obj\Debug\PeopleList.csproj.GenerateResource.cache
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\obj\Debug\PeopleList.csproj.CoreCompileInputs.cache
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\obj\Debug\PeopleList.csproj.CopyComplete
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\obj\Debug\PeopleList.exe
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\obj\Debug\PeopleList.pdb
+C:\Users\dschuh\source\repos\IGME-201\PeopleList_class\obj\Debug\PeopleList.PeopleList.resources
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\PeopleList.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\PeopleList.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\EditPerson.dll
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\PeopleAppGlobals.dll
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\PeopleLib.dll
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\CourseLib.dll
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\EditPerson.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\EditPerson.dll.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\PeopleAppGlobals.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\PeopleLib.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\bin\Debug\CourseLib.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\obj\Debug\PeopleList.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\obj\Debug\PeopleList.PeopleListForm.resources
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\obj\Debug\PeopleList.csproj.GenerateResource.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\obj\Debug\PeopleList.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\obj\Debug\PeopleList.csproj.CopyComplete
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\obj\Debug\PeopleList.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleList_class\obj\Debug\PeopleList.pdb

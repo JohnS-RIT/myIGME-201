@@ -14,10 +14,10 @@ namespace PeopleLib
     }
     public enum collegeYear : byte
     {
-        freshman = 23,
-        sophomore = 22, 
-        junior = 21,
-        senior = 20
+        freshman = 24,
+        sophomore = 23, 
+        junior = 22,
+        senior = 21
     }
 
     public interface ICourseList

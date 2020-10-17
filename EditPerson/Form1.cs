@@ -12,34 +12,126 @@ using PeopleAppGlobals;
 
 namespace EditPerson
 {
-    public partial class EditPersonForm : Form
+    public partial class PersonEditForm : Form
     {
         Person formPerson;
-        public EditPersonForm(Person person, Form parentForm)
+        public PersonEditForm(Person person, Form parentForm)
         {
+            //////////////////////////////////////////////////////////////////
+            /// THIS MUST BE THE FIRST LINE OF YOUR FORM CLASS CONSTRUCTOR ///
+            ////////////////////////////////////////////////////////////////// 
             InitializeComponent();
+
+            // this is the constructor of our PersonEditForm class derived from the Form parent class
+            // our class has the following objects added to it:
+            //    this.typeLabel : Label control
+            //    this.typeComboBox : ComboBox control
+
+            //    this.nameLabel : Label control
+            //    this.nameText : TextBox control
+
+            //    this.emailLabel : Label control
+            //    this.emailText : TextBox control
+
+            //    this.ageLabel : Label control
+            //    this.ageText : TextBox control
+
+            //    this.licLabel : Label control
+            //    this.licText : TextBox control
+
+            //    this.gpaLabel : Label control
+            //    this.gpaText : TextBox control
+
+            //    this.specialtyLabel : Label control
+            //    this.specText : TextBox control
+
+            //    this.cancelButton : Button control
+            //    this.okButton : Button control
+
+            //    this.errorProvider : ErrorProvider control
+
 
             this.formPerson = person;
 
+            // if a parent form created this form
             if (parentForm != null)
             {
+                // set the owner
                 this.Owner = parentForm;
+
+                // center to the owner
                 this.CenterToParent();
             }
 
+            // default the OK button to be disabled
+            // and only enable it if all text fields are valid
             this.okButton.Enabled = false;
 
-            foreach(Control control in this.Controls)
+            // most Form controls have a Tag field which is a System.Object type
+            // and can be used to store any property
+            // loop through all of the controls on the form
+            foreach (Control control in this.Controls)
             {
+                // we will use the Tag field to indicate if the field is valid or not
+                // initialize Tag to false to indicate invalid
                 control.Tag = false;
             }
 
-            this.nameText.Validating += new CancelEventHandler(TxtBoxEmpty__Validating);
-            this.emailText.Validating += new CancelEventHandler(TxtBoxEmpty__Validating);
-            this.ageText.Validating += new CancelEventHandler(TxtBoxEmpty__Validating);
-            this.gpaText.Validating += new CancelEventHandler(TxtBoxEmpty__Validating);
-            this.specText.Validating += new CancelEventHandler(TxtBoxEmpty__Validating);
+            // the following excerpts are from "Windows Forms Controls" on myCourses 
+            // to add Validating and TextChanged event handlers to the TextBox Controls
 
+            /*********************************************************************************** 
+            Validating Event
+            Occurs when the object is leaving scope (ie. tabbing out of the field or the user clicked another field or button)
+            Accepts the event handler CancelEventHandler() because the primary purpose of Validating is to determine whether 
+            this event should cause the focus to leave the current control and enter the next control 
+            (if CausesValidation == True for the next control).  If the validation fails, then the navigation event is 
+            cancelled and the current control stays in focus.
+
+            Example for adding the delegate method:
+                this.objectName.Validating += new CancelEventHandler(this.ObjectName__Validating);
+
+            The CancelEventHandler() delegate method must accept the following parameters:
+                private void ObjectName__Validating(object sender, CancelEventArgs e)
+            By convention, the delegate methods are named:
+                ObjectName_EventName()
+
+            Important Fields in sender (TextBox)
+                TextBox tb = (TextBox)sender;
+                tb.Text: validate for certain contents before allowing user to exit the field
+
+            Important Fields in CancelEventArgs
+                e.Cancel: a boolean to indicate whether the event should be cancelled or not.  If set to true, then the current TextBox will stay in focus.
+            ************************************************************************************/
+
+            // we want the same delegate function to be called for the following 6 fields
+            // TxtBoxEmpty__Validating() is defined below
+            this.nameText.Validating += new CancelEventHandler(TxtBoxEmpty__Validating);
+            this.emailText.Validating += new CancelEventHandler(this.TxtBoxEmpty__Validating);
+            this.ageText.Validating += new CancelEventHandler(this.TxtBoxEmpty__Validating);
+            this.gpaText.Validating += new CancelEventHandler(this.TxtBoxEmpty__Validating); ;
+            this.specText.Validating += new CancelEventHandler(this.TxtBoxEmpty__Validating);
+
+            /*********************************************************************************** 
+            TextChanged
+            Occurs when the contents of Text changes (ie. TextBox.Text)
+            Accepts the empty EventHandler() delegate because the event is limited to only the current control.
+            
+            Example for adding the delegate method:
+                    this.objectName.TextChanged += new EventHandler(this.ObjectName__TextChanged);
+            
+            The EventHandler delegate method must have the following signature:
+                private void ObjectName__TextChanged(object sender, EventArgs e)
+            
+            Important Fields in sender
+                TextBox tb = (TextBox)sender;
+                tb.Text: the current text in the TextBox
+            
+            Important Fields in EventArgs
+                None.
+            ************************************************************************************/
+
+            // we want the same delegate function to be called for the following 6 fields
             this.nameText.TextChanged += new EventHandler(TxtBoxEmpty__TextChanged);
             this.emailText.TextChanged += new EventHandler(TxtBoxEmpty__TextChanged);
             this.ageText.TextChanged += new EventHandler(TxtBoxEmpty__TextChanged);
@@ -47,10 +139,49 @@ namespace EditPerson
             this.gpaText.TextChanged += new EventHandler(TxtBoxEmpty__TextChanged);
             this.specText.TextChanged += new EventHandler(TxtBoxEmpty__TextChanged);
 
+            /*
+            KeyPress Event for TextBox fields
+            Occurs when the user presses a key sequence which generates a character(shift + A for example) within the control
+                     Accepts the KeyPressEventHandler() delegate, whose method must have the following signature:
+                        private void ObjectName__KeyPress(object sender, KeyPressEventArgs e)
+            
+            Example for adding the delegate method:
+                    this.objectName.KeyPress += new KeyPressEventHandler(this.ObjectName__KeyPress);
+            
+            Important Fields in sender:
+                TextBox tb = (TextBox)sender;
+                tb.Text: the current text in the TextBox
+            
+            Important Fields in KeyPressEventArgs
+                e.KeyChar: gets or sets the character just pressed allowing you to change, suppress or pass - through each character
+                e.Handled: a boolean to indicate whether the delegate's method "handled" the keypress.  If it is set to true, then .NET will not process the keypress (ie. the keyboard buffer will be cleared).
+            */
+
+            // finish coding the TxtNum__KeyPress function below, which enforces digits-only in the Age, License and GPA fields,
+            // and allows 1 decimal point in the GPA field.
             this.ageText.KeyPress += new KeyPressEventHandler(TxtNum__KeyPress);
             this.licText.KeyPress += new KeyPressEventHandler(TxtNum__KeyPress);
             this.gpaText.KeyPress += new KeyPressEventHandler(TxtNum__KeyPress);
 
+            /*
+            SelectedIndexChanged Event for ComboBox Controls
+            Occurs when the user changes the ComboBox value
+            Accepts the empty EventHandler() delegate because the event is limited to only the current control.
+            
+            Example for adding the delegate method:
+                    this.objectName.SelectedIndexChanged += new EventHandler(this.ObjectName__SelectedIndexChanged);
+            
+            The EventHandler delegate method must have the following signature:
+                private void ObjectName__SelectedIndexChanged(object sender, EventArgs e)
+            
+            Important Fields in sender
+                ComboBox cb = (ComboBox) sender;
+                    cb.SelectedIndex: the 0-based index of the selected item
+                    cb.SelectedItem: the string of the display value of the selected item
+            
+            Important Fields in EventArgs
+                None.
+            */
             this.typeComboBox.SelectedIndexChanged += new EventHandler(TypeComboBox__SelectedIndexChanged);
 
             // load all the common fields out of the person reference variable
@@ -91,69 +222,6 @@ namespace EditPerson
             // associate the Click delegate methods for our 2 buttons to the Click event handler
             this.okButton.Click += new EventHandler(OkButton__Click);
             this.cancelButton.Click += new EventHandler(CancelButton__Click);
-        }
-
-        private void TxtBoxEmpty__Validating(object sender, CancelEventArgs e)
-        {
-            TextBox tb = (TextBox)sender;
-
-            if(tb.Text.Length == 0)
-            {
-                this.errorProvider.SetError(tb, "This field cannot be empty.");
-                e.Cancel = true;
-                tb.Tag = false;
-            }
-            else
-            {
-                this.errorProvider.SetError(tb, null);
-                e.Cancel = false;
-                tb.Tag = true;
-            }
-
-            ValidateAll();
-        }
-
-        private void TxtBoxEmpty__TextChanged(object sender, EventArgs e)
-        {
-            TextBox tb = (TextBox)sender;
-
-            if (tb.Text.Length == 0)
-            {
-                this.errorProvider.SetError(tb, "This field cannot be empty.");
-                tb.Tag = false;
-            }
-            else
-            {
-                this.errorProvider.SetError(tb, null);
-                tb.Tag = true;
-            }
-
-            ValidateAll();
-
-        }
-
-        private void TxtNum__KeyPress(object sender, KeyPressEventArgs e)
-        {
-            TextBox tb = (TextBox)sender;
-
-            if (Char.IsDigit(e.KeyChar) || e.KeyChar == '\b')
-            {
-                e.Handled = false;
-            }
-            else
-            {
-                e.Handled = true;
-
-                if (tb == this.gpaText)
-                {
-                    if (e.KeyChar == '.' && !tb.Text.Contains("."))
-                    {
-                        e.Handled = false;
-                    }
-                }
-            }
-
-            ValidateAll();
         }
 
         private void CancelButton__Click(object sender, EventArgs e)
@@ -286,8 +354,109 @@ namespace EditPerson
             ValidateAll();
         }
 
+        private void TxtNum__KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // A key was pressed in the associated number field
+            // only allow digits or a single '.' for the gpa field
+
+            TextBox tb = (TextBox)sender;
+
+            // e.KeyChar contains the character that was pressed
+            // if a numeric character was entered or backspace was entered  
+            // Char.IsDigit(char) checks if a char is a digit
+            // '\b' is the character code for backspace
+            if (Char.IsDigit(e.KeyChar) || e.KeyChar == '\b')
+            {
+                // .NET should continue to handle the keystroke (ie. add it to the textbox)
+                // set e.Handled to indicate that we did not handle it
+                e.Handled = false;
+            }
+            else
+            {
+                // assume that the keystroke can be flagged as being handled by us
+                // (ie. drop the keystroke from the .NET buffer and don't show it in the textbox)
+                e.Handled = true;
+
+                // if the active control is the GPA field gpaText
+                // then allow one '.'
+                if (tb == this.gpaText)
+                {
+                    // if they entered '.' and it is not already in gpaText.Text
+                    if (e.KeyChar == '.' && !tb.Text.Contains("."))
+                    {
+                        // .NET should continue to handle the keystroke (ie. show it in the text box)
+                        e.Handled = false;
+                    }
+                }
+            }
+
+            // recalculate enabled status of the okButton
+            ValidateAll();
+        }
+
+        // don't allow associated fields to be empty while the user is editing it
+        private void TxtBoxEmpty__TextChanged(object sender, EventArgs e)
+        {
+            TextBox tb = (TextBox)sender;
+
+            // if the field has just become empty
+            if (tb.Text.Length == 0)
+            {
+                // show error
+                this.errorProvider.SetError(tb, "This field cannot be empty.");
+
+                // invalidate the control
+                tb.Tag = false;
+            }
+            else
+            {
+                // else there is data in the field
+                // clear the error
+                this.errorProvider.SetError(tb, null);
+
+                // set the control to being valid
+                tb.Tag = true;
+            }
+
+            // recalculate enabled status of the okButton
+            ValidateAll();
+        }
+
+        // don't allow associated fields to be empty while the user is leaving the field
+        private void TxtBoxEmpty__Validating(object sender, CancelEventArgs e)
+        {
+            TextBox tb = (TextBox)sender;
+
+            // if the field is empty
+            if (tb.Text.Length == 0)
+            {
+                // show error
+                this.errorProvider.SetError(tb, "This field cannot be empty.");
+
+                // cancel moving to the next field
+                e.Cancel = true;
+
+                // invalidate the control
+                tb.Tag = false;
+            }
+            else
+            {
+                // else there is data in the field
+                // clear the error
+                this.errorProvider.SetError(tb, null);
+                e.Cancel = false;
+
+                // set the control to being valid
+                tb.Tag = true;
+            }
+
+            // recalculate enabled status of the okButton
+            ValidateAll();
+        }
+
         private void ValidateAll()
         {
+            // enable or disable the OK button based on the valid state of the fields that cannot be blank
             this.okButton.Enabled =
                 (bool)this.nameText.Tag &&
                 (bool)this.emailText.Tag &&
