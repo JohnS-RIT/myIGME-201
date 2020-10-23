@@ -11,7 +11,7 @@ C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\CourseLib.dll
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\PeopleAppGlobals.pdb
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\CourseLib.pdb
-C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\EditPerson.dll.config
-C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\EditPerson.dll
-C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.dll
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.PersonEditForm.resources
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\EditPerson.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\bin\Debug\EditPerson.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\EditPerson\obj\Debug\EditPerson.exe

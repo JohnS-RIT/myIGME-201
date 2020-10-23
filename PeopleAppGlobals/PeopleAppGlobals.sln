@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleAppGlobals", "PeopleAppGlobals.csproj", "{B9B4C5A5-911A-4335-B122-93E98A96B81B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleAppGlobals", "PeopleAppGlobals.csproj", "{B20492A9-6FD7-4E00-89BC-5C245488EA5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9B4C5A5-911A-4335-B122-93E98A96B81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9B4C5A5-911A-4335-B122-93E98A96B81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9B4C5A5-911A-4335-B122-93E98A96B81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9B4C5A5-911A-4335-B122-93E98A96B81B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20492A9-6FD7-4E00-89BC-5C245488EA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20492A9-6FD7-4E00-89BC-5C245488EA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20492A9-6FD7-4E00-89BC-5C245488EA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20492A9-6FD7-4E00-89BC-5C245488EA5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6E819EBB-79BD-42CB-8B5D-206CF70EAF45}
+		SolutionGuid = {66ECF2CF-7B07-441F-8D58-B88F0C1A1590}
 	EndGlobalSection
 EndGlobal

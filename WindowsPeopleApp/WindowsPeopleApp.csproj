@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6728CC53-098B-4FE2-965B-7B100F0FF36C}</ProjectGuid>
+    <ProjectGuid>{D2C6C259-C3F6-4EDA-8999-F4B69EA36768}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsPeopleApp</RootNamespace>
     <AssemblyName>WindowsPeopleApp</AssemblyName>
@@ -33,11 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EditPerson">
+    <Reference Include="EditPerson, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\EditPerson\bin\Debug\EditPerson.dll</HintPath>
     </Reference>
     <Reference Include="PeopleLib">
       <HintPath>..\PeopleLib\bin\Debug\PeopleLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PeopleList">
+      <HintPath>..\PeopleList\bin\Debug\PeopleList.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

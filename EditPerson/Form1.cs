@@ -15,7 +15,8 @@ namespace EditPerson
     public partial class PersonEditForm : Form
     {
         Person formPerson;
-        public PersonEditForm(Person person, Form parentForm)
+
+        public PersonEditForm(Person person, Form parentForm )
         {
             //////////////////////////////////////////////////////////////////
             /// THIS MUST BE THE FIRST LINE OF YOUR FORM CLASS CONSTRUCTOR ///
@@ -54,7 +55,7 @@ namespace EditPerson
             this.formPerson = person;
 
             // if a parent form created this form
-            if (parentForm != null)
+            if( parentForm != null )
             {
                 // set the owner
                 this.Owner = parentForm;
@@ -70,7 +71,7 @@ namespace EditPerson
             // most Form controls have a Tag field which is a System.Object type
             // and can be used to store any property
             // loop through all of the controls on the form
-            foreach (Control control in this.Controls)
+            foreach ( Control control in this.detailsTabPage.Controls)
             {
                 // we will use the Tag field to indicate if the field is valid or not
                 // initialize Tag to false to indicate invalid
@@ -184,15 +185,66 @@ namespace EditPerson
             */
             this.typeComboBox.SelectedIndexChanged += new EventHandler(TypeComboBox__SelectedIndexChanged);
 
+            // add the event handler to the class radio buttons
+            this.froshRadioButton.CheckedChanged += new EventHandler(this.ClassRadioButton__CheckedChanged);
+            this.sophRadioButton.CheckedChanged += new EventHandler(this.ClassRadioButton__CheckedChanged);
+            this.juniorRadioButton.CheckedChanged += new EventHandler(this.ClassRadioButton__CheckedChanged);
+            this.seniorRadioButton.CheckedChanged += new EventHandler(this.ClassRadioButton__CheckedChanged);
+
+            this.photoPictureBox.Click += new EventHandler(PhotoPictureBox__Click);
+
+            this.birthDateTimePicker.ValueChanged += new EventHandler(BirthDateTimePicker__ValueChanged);
+
+            this.homepageWebBrowser.ScriptErrorsSuppressed = true;
+            this.homepageWebBrowser.DocumentCompleted += new WebBrowserDocumentCompletedEventHandler(HomepageWebBrowser__DocumentCompleted);
+
+            this.editPersonTabControl.SelectedIndexChanged += new EventHandler(EditPersonTabControl__SelectedIndexChanged);
+
             // load all the common fields out of the person reference variable
             // and into our form fields
             this.nameText.Text = person.name;
             this.emailText.Text = person.email;
             this.ageText.Text = person.age.ToString();
             this.licText.Text = person.LicenseId.ToString();
+            this.homePageTextBox.Text = person.homePageURL;
+
+            this.photoPictureBox.ImageLocation = person.photoPath;
+
+            this.birthDateTimePicker.Value = this.birthDateTimePicker.MinDate;
+
+            // if a new person
+            if (person.name == null)
+            {
+                // default to them
+                this.themRadioButton.Checked = true;
+            }
+            else
+            {
+                switch (person.eGender)
+                {
+                    case genderPronoun.her:
+                        this.herRadioButton.Checked = true;
+                        break;
+
+                    case genderPronoun.him:
+                        this.himRadioButton.Checked = true;
+                        break;
+
+                    case genderPronoun.them:
+                        this.themRadioButton.Checked = true;
+                        break;
+                }
+
+                if( person.dateOfBirth > this.birthDateTimePicker.MinDate)
+                {
+                    this.birthDateTimePicker.Value = person.dateOfBirth;
+                }
+
+                this.photoPictureBox.ImageLocation = person.photoPath;
+            }
 
             // if we are editing a Student
-            if (person.GetType() == typeof(Student))
+            if ( person.GetType() == typeof(Student))
             {
                 // set the combo box to the student index (0)
                 // executing this line will trigger the SelectedIndexChanged event
@@ -204,6 +256,35 @@ namespace EditPerson
                 // from the student object
                 Student student = (Student)person;
                 this.gpaText.Text = student.gpa.ToString();
+
+                // if a new student
+                if (student.name == null)
+                {
+                    // default class year to senior
+                    this.seniorRadioButton.Checked = true;
+                }
+                else
+                {
+                    switch (student.eCollegeYear)
+                    {
+                        case collegeYear.freshman:
+                            this.froshRadioButton.Checked = true;
+                            break;
+
+                        case collegeYear.sophomore:
+                            this.sophRadioButton.Checked = true;
+                            break;
+
+                        case collegeYear.junior:
+                            this.juniorRadioButton.Checked = true;
+                            break;
+
+                        case collegeYear.senior:
+                        default:
+                            this.seniorRadioButton.Checked = true;
+                            break;
+                    }
+                }
             }
             else
             {
@@ -222,12 +303,123 @@ namespace EditPerson
             // associate the Click delegate methods for our 2 buttons to the Click event handler
             this.okButton.Click += new EventHandler(OkButton__Click);
             this.cancelButton.Click += new EventHandler(CancelButton__Click);
+
+            Show();
+        }
+
+        private void HomepageWebBrowser__DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            WebBrowser wb = (WebBrowser)sender;
+
+            HtmlElementCollection htmlElementCollection;
+            HtmlElement htmlElement;
+
+            htmlElement = wb.Document.Body;
+            htmlElement.Style += "font-family: sans-serif; color: #a000a0;";
+
+            htmlElementCollection = wb.Document.GetElementsByTagName("h1");
+            htmlElement = htmlElementCollection[0];
+            htmlElement.InnerText = "My Kitten Page";
+
+            htmlElementCollection = wb.Document.GetElementsByTagName("h2");
+            htmlElement = htmlElementCollection[0];
+            htmlElement.InnerText = "Meow!";
+
+            htmlElement = htmlElementCollection[1];
+            htmlElement.InnerHtml = "<a href='http://www.kittens.com'>Kitties!</a>";
+
+            htmlElementCollection[2].InnerText = "";
+
+            htmlElement = wb.Document.GetElementById("lastParagraph");
+
+            HtmlElement htmlElement1 = wb.Document.CreateElement("img");
+            htmlElement1.SetAttribute("src", "https://en.bcdn.biz/Images/2018/6/12/27565ee3-ffc0-4a4d-af63-ce8731b65f26.jpg");
+            htmlElement1.SetAttribute("title", "awwww");
+
+            htmlElement.InsertAdjacentElement(HtmlElementInsertionOrientation.AfterBegin, htmlElement1);
+
+            htmlElement1 = wb.Document.CreateElement("footer");
+
+            htmlElement1.InnerHtml = "&copy;2020 <a href='people.rit.edu/dxsigm'>D.Schuh</a>";
+            wb.Document.Body.AppendChild(htmlElement1);
+        }
+
+        private void EditPersonTabControl__SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TabControl tc = (TabControl)sender;
+
+            if( tc.SelectedTab == this.homepageTabPage )
+            {
+                this.AcceptButton = null;
+                this.CancelButton = null;
+
+                homepageWebBrowser.Navigate(this.homePageTextBox.Text);
+            }
+            else if( tc.SelectedTab == this.detailsTabPage )
+            {
+                this.AcceptButton = this.okButton;
+                this.CancelButton = this.cancelButton;
+            }
+        }
+
+        private void BirthDateTimePicker__ValueChanged(object sender, EventArgs e)
+        {
+            DateTimePicker dtp = (DateTimePicker)sender;
+
+            if( dtp.Value == dtp.MinDate)
+            {
+                dtp.CustomFormat = " ";
+            }
+            else
+            {
+                dtp.CustomFormat = "MMM d, yyyy";
+            }
+
+        }
+
+        private void PhotoPictureBox__Click(object sender, EventArgs e)
+        {
+            PictureBox pb = (PictureBox)sender;
+
+            if( openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                pb.ImageLocation = openFileDialog.FileName;
+            }
+        }
+
+        private void ClassRadioButton__CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton rb = (RadioButton)sender;
+
+            // if the radio button is checked
+            if (rb.Checked)
+            {
+                if (rb == this.froshRadioButton)
+                {
+                    classOfLabel.Text = "Class of 2024";
+                }
+
+                if (rb == this.sophRadioButton)
+                {
+                    classOfLabel.Text = "Class of 2023";
+                }
+
+                if (rb == this.juniorRadioButton)
+                {
+                    classOfLabel.Text = "Class of 2022";
+                }
+
+                if (rb == this.seniorRadioButton)
+                {
+                    classOfLabel.Text = "Class of 2021";
+                }
+            }
         }
 
         private void CancelButton__Click(object sender, EventArgs e)
         {
             // if a parent form called this form
-            if (this.Owner != null)
+            if( this.Owner != null )
             {
                 // enable the parent form
                 this.Owner.Enabled = true;
@@ -254,7 +446,7 @@ namespace EditPerson
             Globals.people.Remove(this.formPerson.email);
 
             // if the current person type is set to Student
-            if (this.typeComboBox.SelectedIndex == 0)
+            if( this.typeComboBox.SelectedIndex == 0 )
             {
                 // create a new Student object
                 student = new Student();
@@ -274,10 +466,50 @@ namespace EditPerson
             person.age = Convert.ToInt32(this.ageText.Text);
             person.LicenseId = Convert.ToInt32(this.licText.Text);
 
+            person.photoPath = this.photoPictureBox.ImageLocation;
+            person.dateOfBirth = this.birthDateTimePicker.Value;
+
+            person.homePageURL = this.homePageTextBox.Text;
+
+            if (this.herRadioButton.Checked)
+            {
+                person.eGender = genderPronoun.her;
+            }
+
+            if (this.himRadioButton.Checked)
+            {
+                person.eGender = genderPronoun.him;
+            }
+
+            if (this.themRadioButton.Checked)
+            {
+                person.eGender = genderPronoun.them;
+            }
+
             if (person.GetType() == typeof(Student))
             {
                 // if a student, then copy the gpa from the form field into our student object
                 student.gpa = Convert.ToDouble(this.gpaText.Text);
+
+                if (this.froshRadioButton.Checked)
+                {
+                    student.eCollegeYear = collegeYear.freshman;
+                }
+
+                if (this.sophRadioButton.Checked)
+                {
+                    student.eCollegeYear = collegeYear.sophomore;
+                }
+
+                if (this.juniorRadioButton.Checked)
+                {
+                    student.eCollegeYear = collegeYear.junior;
+                }
+
+                if (this.seniorRadioButton.Checked)
+                {
+                    student.eCollegeYear = collegeYear.senior;
+                }
             }
             else
             {
@@ -315,7 +547,7 @@ namespace EditPerson
             ComboBox cb = (ComboBox)sender;
 
             // the ComboBox SelectedIndex = 0 (Student)
-            if (cb.SelectedIndex == 0)
+            if ( cb.SelectedIndex == 0 )
             {
                 // set specText and specialtyLabel Visible field = false
                 this.specialtyLabel.Visible = false;
@@ -330,6 +562,14 @@ namespace EditPerson
 
                 // gpaText is only valid if not blank
                 this.gpaText.Tag = (this.gpaText.Text.Length > 0);
+
+                // college year group box should be visible for Student
+                this.classGroupBox.Visible = true;
+
+                if( formPerson.GetType() == typeof(Teacher))
+                {
+                    this.seniorRadioButton.Checked = true;
+                }
             }
             else
             {
@@ -348,6 +588,9 @@ namespace EditPerson
 
                 // validate gpaText since it's not required for teachers
                 this.gpaText.Tag = true;
+
+                // college year group box should not be visible for Teacher
+                this.classGroupBox.Visible = false;
             }
 
             // recalculate enabled status of the okButton
@@ -428,7 +671,7 @@ namespace EditPerson
             TextBox tb = (TextBox)sender;
 
             // if the field is empty
-            if (tb.Text.Length == 0)
+            if ( tb.Text.Length == 0)
             {
                 // show error
                 this.errorProvider.SetError(tb, "This field cannot be empty.");

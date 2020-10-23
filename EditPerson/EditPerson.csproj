@@ -4,8 +4,8 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5897B36B-0B46-4643-80D8-B121F82834A2}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{EBBA4799-849E-4C72-A2F7-865FBFB16AB4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>EditPerson</RootNamespace>
     <AssemblyName>EditPerson</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -36,10 +36,12 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PeopleAppGlobals">
+    <Reference Include="PeopleAppGlobals, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\PeopleAppGlobals\bin\Debug\PeopleAppGlobals.dll</HintPath>
     </Reference>
-    <Reference Include="PeopleLib">
+    <Reference Include="PeopleLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\PeopleLib\bin\Debug\PeopleLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -74,6 +76,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,6 +90,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gradient-geometric-shape-background_78532-374.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

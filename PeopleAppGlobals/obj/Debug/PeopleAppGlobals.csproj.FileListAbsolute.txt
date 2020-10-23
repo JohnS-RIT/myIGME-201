@@ -1,11 +1,11 @@
-C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.csprojAssemblyReference.cache
-C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.csproj.CoreCompileInputs.cache
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\bin\Debug\PeopleAppGlobals.dll
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\bin\Debug\PeopleAppGlobals.pdb
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\bin\Debug\CourseLib.dll
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\bin\Debug\PeopleLib.dll
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\bin\Debug\CourseLib.pdb
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\bin\Debug\PeopleLib.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.csproj.CoreCompileInputs.cache
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.csproj.CopyComplete
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.dll
 C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\PeopleAppGlobals\obj\Debug\PeopleAppGlobals.pdb

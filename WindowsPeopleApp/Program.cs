@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using EditPerson;
 using PeopleLib;
+using PeopleList;
 
 namespace WindowsPeopleApp
 {
@@ -19,9 +20,9 @@ namespace WindowsPeopleApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Person student = new Student();
+            
 
-            Application.Run(new EditPersonForm(student, null));
+            Application.Run(new PeopleListForm());
         }
     }
 }
