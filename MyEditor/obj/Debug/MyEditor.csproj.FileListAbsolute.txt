@@ -1,0 +1,10 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MyEditor\bin\Debug\MyEditor.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MyEditor\bin\Debug\MyEditor.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MyEditor\bin\Debug\MyEditor.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MyEditor\obj\Debug\MyEditor.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MyEditor\obj\Debug\MyEditor.Form1.resources
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MyEditor\obj\Debug\MyEditor.Properties.Resources.resources
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MyEditor\obj\Debug\MyEditor.csproj.GenerateResource.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MyEditor\obj\Debug\MyEditor.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MyEditor\obj\Debug\MyEditor.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\MyEditor\obj\Debug\MyEditor.pdb
