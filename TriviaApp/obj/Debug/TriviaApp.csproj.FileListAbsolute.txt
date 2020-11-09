@@ -1,0 +1,10 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TriviaApp\bin\Debug\TriviaApp.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TriviaApp\bin\Debug\TriviaApp.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TriviaApp\bin\Debug\TriviaApp.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TriviaApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TriviaApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TriviaApp\obj\Debug\TriviaApp.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TriviaApp\obj\Debug\TriviaApp.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TriviaApp\obj\Debug\TriviaApp.csproj.CopyComplete
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TriviaApp\obj\Debug\TriviaApp.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TriviaApp\obj\Debug\TriviaApp.pdb
