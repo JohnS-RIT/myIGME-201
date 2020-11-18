@@ -1,0 +1,11 @@
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\bin\Debug\TaskMasterCreateAssignment.exe.config
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\bin\Debug\TaskMasterCreateAssignment.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\bin\Debug\TaskMasterCreateAssignment.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\obj\Debug\TaskMasterCreateAssignment.csprojAssemblyReference.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\obj\Debug\TaskMasterCreateAssignment.CreateAssignment.resources
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\obj\Debug\TaskMasterCreateAssignment.Properties.Resources.resources
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\obj\Debug\TaskMasterCreateAssignment.csproj.GenerateResource.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\obj\Debug\TaskMasterCreateAssignment.csproj.CoreCompileInputs.cache
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\obj\Debug\TaskMasterCreateAssignment.exe
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\obj\Debug\TaskMasterCreateAssignment.pdb
+C:\Users\jsnif\OneDrive\Desktop\Fall 2020\IDAPSIII\Github\myRepo\TaskMasterCreateAssignment\obj\Debug\TaskMasterCreateAssignment.positiveEnforcementForm.resources
